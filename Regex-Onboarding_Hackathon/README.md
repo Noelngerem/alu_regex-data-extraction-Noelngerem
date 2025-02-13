@@ -22,9 +22,13 @@ Meeting at 14:30 and another at 2:30 PM.
 from Regex_Data_Extraction import extract_emails, extract_urls, extract_phone_numbers, extract_credit_cards, extract_time
 
 print("Emails:", extract_emails(input_data))
+
 print("URLs:", extract_urls(input_data))
+
 print("Phone Numbers:", extract_phone_numbers(input_data))
+
 print("Credit Cards:", extract_credit_cards(input_data))
+
 print("Time Formats:", extract_time(input_data))
 
 
