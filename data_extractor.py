@@ -1,6 +1,6 @@
 import re
 
-# here wa are going to define regular expressions for each type of the data
+# here we are going to define regular expressions for each type of the data
 def extract_emails(text):
     return re.findall(r"[\w.-]+@[\w.-]+\.\w+", text)
 
